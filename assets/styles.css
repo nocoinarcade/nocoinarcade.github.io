@@ -1,0 +1,42 @@
+body{
+  background: #fff;
+  font-family: 'Courier Prime', monospace;
+}
+a{color:#000;}
+
+#container{
+  margin: auto;
+  text-align: center;
+  padding: 5% 10% 10% 10%;
+}
+
+span{visibility: hidden; display: none;}
+
+h1#logo img{
+  max-height: 500px;
+  max-width: 500px;
+  margin-bottom:1em;}
+
+h2{margin: 2em 0 0.5em 0;}
+
+ul{
+  margin:0;
+  text-align: center;
+}
+
+ul li{
+  list-style: none;
+  padding: 10px 35px;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position:  0 50%;
+  display:inline-block;
+  margin:10px 0;
+  text-align: left;
+  width:140px;
+}
+
+.twitter{background-image: url(twitter.svg)}
+.instagram{background-image: url(instagram.svg)}
+.youtube{background-image: url(youtube.svg)}
+.twitch{background-image: url(twitch.svg)}
