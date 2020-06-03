@@ -1,39 +1,44 @@
 body{
   background: #fff;
   font-family: 'Courier Prime', monospace;
+  font-size: 110%;
 }
 a{color:#000;}
+a:hover{color:#fff;background-color:#000}
 
 #container{
+  max-width: 50em;
   margin: auto;
-  text-align: center;
-  padding: 5% 10% 10% 10%;
+  text-align: left;
+  padding: 0 5% 5% 10%;
 }
 
 span{visibility: hidden; display: none;}
 
-h1#logo img{
-  max-height: 500px;
-  max-width: 500px;
-  margin-bottom:1em;}
+h1#logo{text-align: center;}
 
-h2{margin: 2em 0 0.5em 0;}
+h1#logo img{
+  max-height: 6em;
+  max-width: 6em;
+  margin: 1em 0;}
+
+h2{margin: 1em 0 0.5em 0;}
 
 ul{
   margin:0;
-  text-align: center;
+  padding:0;
 }
 
 ul li{
   list-style: none;
-  padding: 10px 35px;
+  padding: 0.5em 0.8em 0.5em 2.3em;
   background-repeat: no-repeat;
-  background-size: 30px;
-  background-position:  0 50%;
+  background-size: 2em;
+  background-position: 0 50%;
   display:inline-block;
-  margin:10px 0;
+  margin: 1em 0;
   text-align: left;
-  width:140px;
+  font-size: 110%;
 }
 
 .twitter{background-image: url(twitter.svg)}
