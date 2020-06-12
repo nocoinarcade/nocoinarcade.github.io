@@ -9,7 +9,7 @@ a:hover{color:#fff;background-color:#000}
 #container{
   max-width: 50em;
   margin: auto;
-  text-align: left;
+  text-align: center;
   padding: 0 5% 5% 10%;
 }
 
